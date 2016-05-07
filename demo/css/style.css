@@ -23,6 +23,7 @@ div#em-Spd-button {
     height: 50px;
     color: #fff;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    z-index: 9998;
 }
 
 div#em-Spd-button:hover {
@@ -53,6 +54,7 @@ div#em-Spd-actions {
     display: table;
     float: right;
     margin-top: 15px;
+    z-index: 9997;
 }
 
 div#em-Spd-actions div.em-Spd-action {
