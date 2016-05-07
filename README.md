@@ -1,5 +1,5 @@
 # Pulse JS
-<svg xmlns="http://www.w3.org/2000/svg" width="84" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><mask id="a"><rect width="84" height="20" rx="3" fill="#fff"/></mask><g mask="url(#a)"><path fill="#555" d="M0 0h41v20H0z"/><path fill="#97CA00" d="M41 0h43v20H41z"/><path fill="url(#b)" d="M0 0h84v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="20.5" y="15" fill="#010101" fill-opacity=".3">demo</text><text x="20.5" y="14">demo</text><text x="61.5" y="15" fill="#010101" fill-opacity=".3">online</text><text x="61.5" y="14">online</text></g></svg>
+<img src="https://github.com/theiliad/pulse-javascript-speeddial/blob/master/img/demo.gif?raw=true" />
 
 Pulse is a lightweight and ultra-fast Material Design styled speed dial, equipped with GPU accelerated animations
 <br /><b>(Pure Javascript + CSS3 + GSAP)</b>
