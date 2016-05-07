@@ -1,0 +1,141 @@
+/* Demo */
+
+body {
+    background: #3e50b4;
+    font-family: Lato;
+}
+
+* { padding: 0; margin: 0; }
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 75px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.content i.swift-logo {
+    font-size: 250px;
+}
+
+.content p {
+    margin-bottom: 45px;
+}
+
+.content p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.content p a:hover {
+    text-decoration: underline;
+}
+
+a.btn {
+    padding: 15px 25px;
+    background: #e81d62;
+    border: 1px solid #e81d62;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+a.btn:hover {
+    background: #ff0e60;
+    border: 1px solid #ff0e60;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+a.btn i.ion-social-github {
+    margin-right: 10px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+#navbar {
+    display: table;
+    width: 100%;
+    background: #2f3e9e;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#navbar li.nav-item {
+    display: table;
+    position: relative;
+    float: left;
+}
+
+#navbar li.nav-item i {
+    margin-right: 10px;
+}
+
+#navbar li.nav-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#navbar li.nav-item a:hover {
+    opacity: 1;
+    transition: all .2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#navbar li.nav-logo a {
+    opacity: 1;
+}
+
+/* Tooltip */
+
+.em-tooltip-box {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    display: table;
+    width: auto;
+    max-width: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.em-tooltip-box:hover {
+    text-decoration: none;
+}
+
+.em-tooltip-box:before {
+    top: 100%;
+	left: 30px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: rgba(0, 0, 0, 0.7);
+	border-width: 7px;
+}

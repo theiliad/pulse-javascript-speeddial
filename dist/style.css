@@ -1,0 +1,80 @@
+/* Pulse JS */
+
+div, div:hover, a, a:hover {
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+div.em-SpeedDial {
+    display: table;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+}
+
+div#em-Spd-button {
+    position: relative;
+    background: #ff5722;
+    padding: 5px;
+    border-radius: 100px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+div#em-Spd-button:hover {
+    background: #ff6732;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+div#em-Spd-button:active {
+    transform: scale(0.96);
+}
+
+div#em-Spd-button i,
+div#em-Spd-actions div.em-Spd-action i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div#em-Spd-button i {
+    font-size: 30px;
+}
+
+div#em-Spd-actions {    
+    display: table;
+    float: right;
+    margin-top: 15px;
+}
+
+div#em-Spd-actions div.em-Spd-action {
+    position: relative;
+    float: right;
+    margin-left: 15px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    color: #333;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    transform: translateX(-100px);
+}
+
+div#em-Spd-actions div.em-Spd-action i {
+    font-size: 20px;
+    margin-top: -1px;
+    color: #7d7d7d;
+}
