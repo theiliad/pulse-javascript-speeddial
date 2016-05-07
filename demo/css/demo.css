@@ -3,6 +3,7 @@
 body {
     background: #3e50b4;
     font-family: Lato;
+    padding-bottom: 30px;
 }
 
 * { padding: 0; margin: 0; }
