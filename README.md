@@ -1,9 +1,9 @@
 # Pulse JS <a href="http://theiliad.github.io/vibe-javascript-modal/"><img src="https://cdn.rawgit.com/theiliad/pulse-javascript-speeddial/master/img/demo.svg" /></a> <img src="https://cdn.rawgit.com/theiliad/pulse-javascript-speeddial/master/img/version.svg" />
 
-<img src="https://github.com/theiliad/pulse-javascript-speeddial/blob/master/img/demo.gif?raw=true" />
-
 Pulse is a lightweight and ultra-fast Material Design styled speed dial, equipped with GPU accelerated animations
 <br /><b>(Pure Javascript + CSS3 + GSAP)</b>
+
+<img src="https://github.com/theiliad/pulse-javascript-speeddial/blob/master/img/demo.gif?raw=true" />
 
 # License
 
